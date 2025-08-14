@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ATS Resume Score Checker
 
 A modern web application built with React.js and Tailwind CSS that analyzes resumes against job descriptions using AI to provide ATS (Applicant Tracking System) compatibility scores and recommendations.
@@ -147,3 +148,7 @@ For issues or questions:
 - [ ] Multiple job description comparison
 - [ ] Resume keyword highlighting
 - [ ] Historical analysis tracking
+=======
+# score-checker
+In this repo I added home-page.
+>>>>>>> b25743912f3e376e61859957b5059ab271e9fcaf
