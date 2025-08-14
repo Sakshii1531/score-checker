@@ -6,6 +6,7 @@ import AIInterviewForm from './components/AIInterviewForm';
 import AIInterviewRules from './components/AIInterviewRules';
 import InterviewPanel from './components/InterviewPanel';
 import interimResults from './components/InterviewResult';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
@@ -71,6 +72,8 @@ function App() {
             <Route path="/results" element={<interimResults />} />
       </Routes>
     </Router>
+
+    <HomePage/>
         </div>
       </div>
     </div>
