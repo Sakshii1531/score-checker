@@ -7,6 +7,7 @@ import AIInterviewRules from './components/AIInterviewRules';
 import InterviewPanel from './components/InterviewPanel';
 import interimResults from './components/InterviewResult';
 import HomePage from './Pages/HomePage';
+import HowItWorks from './Pages/HowItWorks';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
     </Router>
 
     <HomePage/>
+    <HowItWorks/>
         </div>
       </div>
     </div>

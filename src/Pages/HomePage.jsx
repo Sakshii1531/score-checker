@@ -1,6 +1,7 @@
 import React from "react";
 import homePageImage from "../assets/homePage.png"; // your image from src/assets
 
+
 const HomePage = () => {
   return (
     <div className="h-screen bg-gradient-to-r from-[#0b0f14] via-[#0b0f14] to-[#0a0e14] text-white">
@@ -24,7 +25,7 @@ const HomePage = () => {
           </p>
 
           {/* Button */}
-          <button className="mt-8 px-6 py-3 rounded-full font-medium bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg transition-transform transform hover:scale-105">
+          <button className="cursor-pointer mt-8 px-6 py-3 rounded-full font-medium bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg transition-transform transform hover:scale-105">
             Explore More
           </button>
         </div>
