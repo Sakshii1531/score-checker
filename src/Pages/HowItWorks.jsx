@@ -77,7 +77,8 @@ const HowItWorks = () => (
 
       {/* CTA button */}
       <div className="mt-20">
-        <button className="cursor-pointer mt-8 px-6 py-3 rounded-full font-medium bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 shadow-lg transition-transform transform hover:scale-105">
+        <button className="cursor-pointer mt-8 px-6 py-3 rounded-full font-medium bg-gradient-to-r from-blue-500 to-blue-600
+         hover:from-blue-600 hover:to-blue-700 shadow-lg transition-transform transform hover:scale-105">
           Start Your Free Mock Interview
         </button>
       </div>

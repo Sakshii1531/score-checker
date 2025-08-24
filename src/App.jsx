@@ -8,6 +8,8 @@ import InterviewPanel from './components/InterviewPanel';
 import interimResults from './components/InterviewResult';
 import HomePage from './Pages/HomePage';
 import HowItWorks from './Pages/HowItWorks';
+import Suggestions from './Pages/Suggestions';
+import ViewTips from './Pages/ViewTips';
 
 function App() {
   return (
@@ -64,18 +66,20 @@ function App() {
           
           <ResumeScoreChecker />
           
- <Router>
       <Routes>
     
         <Route path="/" element={<AIInterviewForm />} />
-            <Route path="/rules" element={<AIInterviewRules />} />
-            <Route path="/interview" element={<InterviewPanel />} />
-            <Route path="/results" element={<interimResults />} />
+        <Route path="/rules" element={<AIInterviewRules />} />
+        <Route path="/interview" element={<InterviewPanel />} />
+        <Route path="/results" element={<interimResults />} />
       </Routes>
-    </Router>
+
 
     <HomePage/>
     <HowItWorks/>
+    <Suggestions/>
+    <ViewTips/>
+    
         </div>
       </div>
     </div>
