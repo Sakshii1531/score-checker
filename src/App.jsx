@@ -10,6 +10,9 @@ import HomePage from './Pages/HomePage';
 import HowItWorks from './Pages/HowItWorks';
 import Suggestions from './Pages/Suggestions';
 import ViewTips from './Pages/ViewTips';
+import Footer from './Pages/Footer';
+import AuthContainer from './Pages/AuthContainer';
+
 
 function App() {
   return (
@@ -79,6 +82,8 @@ function App() {
     <HowItWorks/>
     <Suggestions/>
     <ViewTips/>
+    <AuthContainer/>
+    <Footer/>
     
         </div>
       </div>
