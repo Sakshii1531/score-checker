@@ -10,8 +10,8 @@ import HomePage from './Pages/HomePage';
 import HowItWorks from './Pages/HowItWorks';
 import Suggestions from './Pages/Suggestions';
 import ViewTips from './Pages/ViewTips';
-import Footer from './Pages/Footer';
 import AuthContainer from './Pages/AuthContainer';
+import FeedbackForm from './Pages/FeedbackForm';
 
 
 function App() {
@@ -83,7 +83,7 @@ function App() {
     <Suggestions/>
     <ViewTips/>
     <AuthContainer/>
-    <Footer/>
+    <FeedbackForm/>
     
         </div>
       </div>
