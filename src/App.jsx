@@ -12,6 +12,7 @@ import Suggestions from './Pages/Suggestions';
 import ViewTips from './Pages/ViewTips';
 import AuthContainer from './Pages/AuthContainer';
 import FeedbackForm from './Pages/FeedbackForm';
+import About from './Pages/About';
 
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
     <ViewTips/>
     <AuthContainer/>
     <FeedbackForm/>
+    <About/>
     
         </div>
       </div>
